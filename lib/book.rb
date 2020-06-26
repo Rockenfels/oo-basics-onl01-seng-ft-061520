@@ -23,12 +23,12 @@ class Book
     @author
   end
   
-  def page_count(title)
-    @title = title
+  def page_count(page_count)
+    @page_count = page_count
   end
   
-  def title
-    @title
+  def page_count
+    @page_count
   end
   
   
